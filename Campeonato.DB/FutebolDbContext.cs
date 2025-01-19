@@ -9,6 +9,7 @@ namespace Campeonato.DB.Futebol
         public DbSet<CampeonatoEntity> Campeonatos { get; set; }
         public DbSet<EdicaoAtual> EdicoesAtuais { get; set; }
         public DbSet<RodadaAtual> RodadasAtuais { get; set; }
+        public DbSet<FaseAtual> FasesAtuais { get; set; }
 
         public FutebolDbContext(DbContextOptions<FutebolDbContext> options) : base(options)
         {

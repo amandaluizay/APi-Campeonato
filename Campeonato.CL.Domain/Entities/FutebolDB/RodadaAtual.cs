@@ -1,6 +1,6 @@
 ﻿namespace Campeonato.CL.Domain.Entities.FutebolDB
 {
-    public class RodadaAtual
+    public class RodadaAtual : Entity
     {
         public int? Rodada { get; set; }
         public string? Status { get; set; }
