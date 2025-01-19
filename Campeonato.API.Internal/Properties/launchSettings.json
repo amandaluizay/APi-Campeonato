@@ -26,7 +26,9 @@
       "launchUrl": "swagger",
       "applicationUrl": "https://localhost:7242;http://localhost:5079",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "FUTEBOL_CONN_STRING": "Server=DESKTOP-1QJ2J2K;Database=Campeonato;Trusted_Connection=True;MultipleActiveResultSets=true"
+
       }
     },
     "IIS Express": {

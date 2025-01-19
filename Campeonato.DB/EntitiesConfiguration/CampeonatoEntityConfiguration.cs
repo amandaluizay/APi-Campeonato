@@ -5,12 +5,14 @@ using CampeonatoEntity = Campeonato.CL.Domain.Entities.FutebolDB.Campeonato;
 
 namespace Campeonato.DB.Futebol.EntitiesConfiguration
 {
-    public class CampeonatoEntityConfiguration : IEntityTypeConfiguration<CampeonatoEntity>
+    internal class CampeonatoEntityConfiguration : IEntityTypeConfiguration<CampeonatoEntity>
     {
         public void Configure(EntityTypeBuilder<CampeonatoEntity> builder)
         {
+            builder.ToTable("campeonato");
+
             builder.HasKey(x => x.Id);
-            builder.Property(x => x.Name);
+            builder.Property(x => x.Nome);
             builder.Property(x => x.Slug);
             builder.Property(x => x.NomePopular);
             builder.Property(x => x.Status);

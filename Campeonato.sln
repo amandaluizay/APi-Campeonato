@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35506.116 d17.12
+VisualStudioVersion = 17.12.35506.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{3CAAD988-A9A4-49CA-A92A-B276E076F0D9}"
 EndProject
@@ -24,6 +24,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{D8C648E1-6EC1-43CA-B5F1-F826AB390EF2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Campeonato.CL.Shared", "Campeonato.CL.Shared\Campeonato.CL.Shared.csproj", "{F1E04A2A-018C-4428-8C8A-948B0E667946}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Campeonato.ConsoleApp", "Campeonato.ConsoleApp\Campeonato.ConsoleApp.csproj", "{D3B05EB7-342E-45E6-B5CC-359042D83397}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,10 @@ Global
 		{F1E04A2A-018C-4428-8C8A-948B0E667946}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1E04A2A-018C-4428-8C8A-948B0E667946}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1E04A2A-018C-4428-8C8A-948B0E667946}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3B05EB7-342E-45E6-B5CC-359042D83397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3B05EB7-342E-45E6-B5CC-359042D83397}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3B05EB7-342E-45E6-B5CC-359042D83397}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3B05EB7-342E-45E6-B5CC-359042D83397}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
