@@ -1,4 +1,4 @@
-﻿namespace Campeonato.CL.Domain.Interfaces
+﻿namespace Campeonato.CL.Domain.Interfaces.Entities
 {
     public interface IEntity
     {

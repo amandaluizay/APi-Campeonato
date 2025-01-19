@@ -4,7 +4,10 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using Campeonato.CL.Shared.Configuration;
 using Microsoft.Extensions.Options;
-using Microsoft.IdentityModel.Tokens;
+using Campeonato.CL.Domain.Interfaces.Repository;
+using Campeonato.DB.Futebol.Repository;
+using Campeonato.CL.Shared.Interfaces;
+using Campeonato.CL.Shared.Services;
 
 namespace Campeonato.CL.Ioc
 {
@@ -20,6 +23,11 @@ namespace Campeonato.CL.Ioc
 
                 options.UseSqlServer(futebolDbConfig.ConnectionString);
             });
+
+            services.AddTransient(typeof(IRepository<>), typeof(EFRepository<>));
+
+            services.AddTransient<IHttpService, HttpService>();
+
             return services;
         }
     }

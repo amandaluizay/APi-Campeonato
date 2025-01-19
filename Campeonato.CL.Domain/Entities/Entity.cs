@@ -1,4 +1,4 @@
-﻿using Campeonato.CL.Domain.Interfaces;
+﻿using Campeonato.CL.Domain.Interfaces.Entities;
 
 namespace Campeonato.CL.Domain.Entities
 {
