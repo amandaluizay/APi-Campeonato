@@ -18,7 +18,7 @@ namespace Campeonato.DB.Futebol.EntitiesConfiguration
             builder.Property(x => x.Status);
             builder.Property(x => x.Tipo);
             builder.Property(x => x.Logo);
-            builder.Property(x => x.Região);
+            builder.Property(x => x.Regiao);
 
             builder.HasOne(i => i.RodadaAtual)
                    .WithOne(i => i.Campeonato)

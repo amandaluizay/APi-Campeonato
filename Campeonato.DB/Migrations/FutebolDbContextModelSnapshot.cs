@@ -38,7 +38,7 @@ namespace Campeonato.DB.Futebol.Migrations
                     b.Property<string>("NomePopular")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Região")
+                    b.Property<string>("Regiao")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Slug")
