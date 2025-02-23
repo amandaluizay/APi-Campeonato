@@ -13,6 +13,10 @@ namespace Campeonato.CL.Shared.Services
             //_httpClient.BaseAddress = new Uri("https://api.api-futebol.com.br/v1/");
         }
 
+        public async Task<byte[]> DownloadFileByUrl(string url)
+        {
+            return await _httpClient.GetByteArrayAsync(url);
+        }
         public async Task<T?> GetAsync<T>(string url, string? apiKey, List<string>? parameters = null)
         {
             var response = await ExecuteAsync(url, apiKey, parameters, null, HttpMethod.Get);

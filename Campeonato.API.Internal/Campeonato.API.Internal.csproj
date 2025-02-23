@@ -16,10 +16,14 @@
 		</PackageReference>
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="9.0.0" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.0" />
+		<PackageReference Include="AutoMapper" Version="13.0.1" />
 	</ItemGroup>
 
 	<ItemGroup>
+		<ProjectReference Include="..\Campeonato.CL.Application\Campeonato.CL.Application.csproj" />
+		<ProjectReference Include="..\Campeonato.CL.Domain\Campeonato.CL.Domain.csproj" />
 		<ProjectReference Include="..\Campeonato.CL.Ioc\Campeonato.CL.Ioc.csproj" />
+		<ProjectReference Include="..\Campeonato.CL.Shared\Campeonato.CL.Shared.csproj" />
 		<ProjectReference Include="..\Campeonato.DB\Campeonato.DB.Futebol.csproj" />
 	</ItemGroup>
 
